@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estudando JS</title>
 </head>
 <body>
-    
-    
-    
     <script>
-        Windows.alert("Isso é um alerta!");
-        windows.confirm("Corfime, por favor!");
-        windows.promt("Insira um dado!");
-    </script>
-    
+        var saldo;
+        
+        saldo = 1212;
+        saldo = saldo.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 
+        window.alert(`teste ${saldo} typeof = ${typeof saldo}`);
+        
+    </script>
 </body>
 </html>
